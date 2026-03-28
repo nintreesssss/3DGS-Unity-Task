@@ -104,8 +104,8 @@
     <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Editor\vBasicControllerDefineSymbols.cs" />
     <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Attributes\Editor\vButtonDrawer.cs" />
     <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Attributes\Editor\vTagMaskDrawer.cs" />
-    <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\Editor\vSelectableStringDrawer.cs" />
     <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Animator\Editor\vAnimatorTagEditorHelper.cs" />
+    <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\Editor\vSelectableStringDrawer.cs" />
     <Compile Include="Assets\Invector-3rdPersonController\Shooter\Scripts\Shooter\Editor\vWeaponIKAdjustEditor.cs" />
     <Compile Include="Assets\Invector-3rdPersonController\ItemManager\Scripts\Editor\vItemManagerUtilities.cs" />
     <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Camera\Editor\vThirdPersonCameraEditor.cs" />

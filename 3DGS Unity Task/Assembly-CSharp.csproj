@@ -76,8 +76,8 @@
     <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterController\vOnDeadTrigger.cs" />
     <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterController\vGameController.cs" />
     <Compile Include="Assets\Invector-3rdPersonController\Shooter\Scripts\Weapon\vShooterWeaponBase.cs" />
-    <Compile Include="Assets\Invector-3rdPersonController\Shooter\Scripts\Shooter\vShooterDamageReceiver.cs" />
     <Compile Include="Assets\Invector-3rdPersonController\Shooter\Scripts\SimpleIK\vWeaponIKAdjustHelper.cs" />
+    <Compile Include="Assets\Invector-3rdPersonController\Shooter\Scripts\Shooter\vShooterDamageReceiver.cs" />
     <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\BodySnapSystem\Scripts\vSnapToBody.cs" />
     <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\FootStep\Scripts\vAudioSurfaceControl.cs" />
     <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Animator\vSetAnimatorValue.cs" />
@@ -107,8 +107,8 @@
     <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\HeadTrack\Scripts\vHeadTrack.cs" />
     <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterController\vHUDController.cs" />
     <Compile Include="Assets\Invector-3rdPersonController\ItemManager\Scripts\vEquipItemToArea.cs" />
-    <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Interactables\vPendulum.cs" />
     <Compile Include="Assets\Invector-3rdPersonController\ItemManager\Scripts\vItemEnumsBuilder\vItemEnumsList.cs" />
+    <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Interactables\vPendulum.cs" />
     <Compile Include="Assets\Invector-3rdPersonController\Melee Combat\3DModels\Other\Vases\Script\vBreakableObject.cs" />
     <Compile Include="Assets\Invector-3rdPersonController\Melee Combat\Scripts\MeleeWeapon\vMeleeEquipment.cs" />
     <Compile Include="Assets\Invector-3rdPersonController\ItemManager\Scripts\vItemAttributes.cs" />
@@ -282,8 +282,8 @@
     <Compile Include="Assets\Invector-3rdPersonController\ItemManager\Scripts\vItemAmountWindow.cs" />
     <Compile Include="Assets\Invector-3rdPersonController\ItemManager\Scripts\Examples\vCheckItemsInInventory.cs" />
     <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterController\Actions\vGenericActionReceiver.cs" />
-    <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterController\Actions\vGenericAnimation.cs" />
     <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\vTargetLookAt.cs" />
+    <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\CharacterController\Actions\vGenericAnimation.cs" />
     <Compile Include="Assets\Invector-3rdPersonController\Shooter\Scripts\ThrowSystem\Scripts\vThrowVisualSettings.cs" />
     <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\vRandomFloat.cs" />
     <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion\Scripts\Generic\Utils\vFrameLimiter.cs" />
