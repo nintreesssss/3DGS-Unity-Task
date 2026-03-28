@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.11f1 (3000ef702840) revision 3145967'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-85995" at "2026-03-25T15:17:11.753264Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-85995" at "2026-03-28T04:08:49.5382063Z"
 OS: 'Windows 11  (10.0.26200) CoreCountrySpecific' Language: 'zh' Physical Memory: 16077 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-03-25T15:17:11Z
+Date: 2026-03-28T04:08:49Z
 
 COMMAND LINE ARGUMENTS:
 D:\Unity 6000.3.11f1\Editor\Unity.exe
@@ -15,13 +15,11 @@ D:\Unity 6000.3.11f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/85995/Desktop/3DGS
+D:/GitHub-File/3DGS Unity Task/3DGS Unity Task
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-3622
--licensingIpc
-LicenseClient-85995
+6561
 -job-worker-count
 9
 -background-job-worker-count
@@ -30,8 +28,8 @@ LicenseClient-85995
 1
 -name
 AssetImport
-Successfully changed project path to: C:/Users/85995/Desktop/3DGS
-C:/Users/85995/Desktop/3DGS
+Successfully changed project path to: D:/GitHub-File/3DGS Unity Task/3DGS Unity Task
+D:/GitHub-File/3DGS Unity Task/3DGS Unity Task
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
     "memorysetup-temp-allocator-size-audio-worker=65536"
@@ -67,12 +65,12 @@ C:/Users/85995/Desktop/3DGS
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [24240]  Target information:
+Player connection [4188]  Target information:
 
-Player connection [24240]  * "[IP] 192.168.0.18 [Port] 0 [Flags] 2 [Guid] 840785784 [EditorId] 840785784 [Version] 1048832 [Id] WindowsEditor(7,nintrees) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [4188]  * "[IP] 192.168.0.18 [Port] 0 [Flags] 2 [Guid] 775471689 [EditorId] 775471689 [Version] 1048832 [Id] WindowsEditor(7,nintrees) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [24240] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [24240] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [4188] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [4188] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 9
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -84,11 +82,11 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 25.01 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.10 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.11f1 (3000ef702840)
 [Subsystems] Discovering subsystems at path D:/Unity 6000.3.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/85995/Desktop/3DGS/Assets
+[Subsystems] Discovering subsystems at path D:/GitHub-File/3DGS Unity Task/3DGS Unity Task/Assets
 GfxDevice: creating device client; kGfxThreadingModeThreaded
 [vulkan] LoadVulkanLibrary vulkan-1.dll[vulkan] Loaded instance function vkGetInstanceProcAddr
 [vulkan] Loaded instance function vkGetInstanceProcAddr
@@ -120,8 +118,8 @@ GfxDevice: creating device client; kGfxThreadingModeThreaded
 [vulkan] Loaded instance function vkGetPhysicalDeviceProperties
 [vulkan] Loaded instance function vkEnumeratePhysicalDevices
 [Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=0000000000000000
-[Vulkan init] Physical Device 0000027269DF2260 [0]: "NVIDIA GeForce RTX 4070 Laptop GPU" deviceType=2 vendorID=10de deviceID=2860
-[Vulkan init] Physical Device 0000027269DF24D0 [1]: "Intel(R) RaptorLake-S Mobile Graphics Controller" deviceType=1 vendorID=8086 deviceID=a78b
+[Vulkan init] Physical Device 0000024BF6C34680 [0]: "NVIDIA GeForce RTX 4070 Laptop GPU" deviceType=2 vendorID=10de deviceID=2860
+[Vulkan init] Physical Device 0000024BF6C34410 [1]: "Intel(R) RaptorLake-S Mobile Graphics Controller" deviceType=1 vendorID=8086 deviceID=a78b
 Vulkan detection: 2
 [Vulkan init] extensions: count=19
 [Vulkan init] extensions: name=VK_EXT_debug_report [enabled=0, external=0]
@@ -205,9 +203,9 @@ Vulkan detection: 2
 [vulkan] Loaded instance function vkCmdEndDebugUtilsLabelEXT
 [vulkan] Loaded instance function vkCmdInsertDebugUtilsLabelEXT
 [Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=0000000000000000
-[Vulkan init] Physical Device 000002710579A020 [0]: "NVIDIA GeForce RTX 4070 Laptop GPU" deviceType=2 vendorID=10de deviceID=2860
-[Vulkan init] Physical Device 000002710579A050 [1]: "Intel(R) RaptorLake-S Mobile Graphics Controller" deviceType=1 vendorID=8086 deviceID=a78b
-[Vulkan init] Selected physical device 000002710579A020
+[Vulkan init] Physical Device 0000024BF68421A0 [0]: "NVIDIA GeForce RTX 4070 Laptop GPU" deviceType=2 vendorID=10de deviceID=2860
+[Vulkan init] Physical Device 0000024BF6841810 [1]: "Intel(R) RaptorLake-S Mobile Graphics Controller" deviceType=1 vendorID=8086 deviceID=a78b
+[Vulkan init] Selected physical device 0000024BF68421A0
 [Vulkan init] Graphics queue count=1
 [Vulkan init] extensions: count=252
 [Vulkan init] extensions: name=VK_AMD_buffer_marker [enabled=0, external=0]
@@ -611,12 +609,12 @@ Initialize mono
 Mono path[0] = 'D:/Unity 6000.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity 6000.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity 6000.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56072
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56712
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity 6000.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007236 seconds.
-- Loaded All Assemblies, in  2.688 seconds
+Registered in 0.000952 seconds.
+- Loaded All Assemblies, in  0.326 seconds
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -624,35 +622,35 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.010 seconds
-Domain Reload Profiling: 4698ms
-	BeginReloadAssembly (1037ms)
+- Finished resetting the current domain, in  0.281 seconds
+Domain Reload Profiling: 606ms
+	BeginReloadAssembly (117ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (234ms)
-	RebuildNativeTypeToScriptingClass (89ms)
-	initialDomainReloadingComplete (247ms)
-	LoadAllAssembliesAndSetupDomain (1080ms)
-		LoadAssemblies (1033ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (134ms)
+		LoadAssemblies (116ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1065ms)
-			TypeCache.Refresh (1060ms)
-				TypeCache.ScanAssembly (1009ms)
+		AnalyzeDomain (132ms)
+			TypeCache.Refresh (130ms)
+				TypeCache.ScanAssembly (119ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (2011ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (281ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1789ms)
+		SetupLoadedEditorAssemblies (255ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (227ms)
-			SetLoadedEditorAssemblies (15ms)
-			BeforeProcessingInitializeOnLoad (386ms)
-			ProcessInitializeOnLoadAttributes (739ms)
-			ProcessInitializeOnLoadMethodAttributes (422ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (98ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -667,25 +665,25 @@ Begin MonoManager ReloadAssembly
 	ResponseStatus: Unsupported protocol version '1.18.0'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-85995"
 [Licensing::IpcConnector] LicenseClient-85995 channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-85995-6000.3.11" at "2026-03-25T15:17:21.8710175Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-85995-6000.3.11" at "2026-03-28T04:08:51.1841551Z"
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.0+23225a6
-  Session Id:              c0913e963dbe4371b41adc2301b26780
-  Correlation Id:          e02e550c2586739b6d9dccc78b741c67
-  External correlation Id: 5309162365945953265
+  Session Id:              6131aed8fd3d4c789dbe896f33a7a13d
+  Correlation Id:          5d79050a066fba8ee21ad4abadf7b2be
+  External correlation Id: 8517103887630544528
   Machine Id:              IwCPrtdwmvH3kkuAfxIKlWmuTT0=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-85995-6000.3.11" (connect: 0.00s, validation: 0.00s, handshake: 0.29s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-85995-6000.3.11-notifications" at "2026-03-25T15:17:22.1603451Z"
-[Licensing::Module] Licensing Background thread has ended after 10.41s
-[Licensing::Module] Licensing is initialized (took 0.57s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-85995-6000.3.11" (connect: 0.00s, validation: 0.00s, handshake: 0.09s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-85995-6000.3.11-notifications" at "2026-03-28T04:08:51.2794279Z"
+[Licensing::Module] Licensing Background thread has ended after 1.74s
+[Licensing::Module] Licensing is initialized (took 0.31s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 18968403971774-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  2.194 seconds
-Refreshing native plugins compatible for Editor in 2.13 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.882 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -695,39 +693,39 @@ Native extension for WindowsStandalone target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.297 seconds
-Domain Reload Profiling: 3488ms
-	BeginReloadAssembly (937ms)
+- Finished resetting the current domain, in  0.466 seconds
+Domain Reload Profiling: 1347ms
+	BeginReloadAssembly (450ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (69ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (62ms)
-	LoadAllAssembliesAndSetupDomain (1101ms)
-		LoadAssemblies (962ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (367ms)
+		LoadAssemblies (273ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (391ms)
-			TypeCache.Refresh (275ms)
-				TypeCache.ScanAssembly (252ms)
-			BuildScriptInfoCaches (93ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (1298ms)
+		AnalyzeDomain (182ms)
+			TypeCache.Refresh (125ms)
+				TypeCache.ScanAssembly (114ms)
+			BuildScriptInfoCaches (45ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (466ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1038ms)
+		SetupLoadedEditorAssemblies (379ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (273ms)
-			ProcessInitializeOnLoadAttributes (620ms)
-			ProcessInitializeOnLoadMethodAttributes (132ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (240ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
 WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -741,34 +739,26 @@ WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subsh
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.99 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 46 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6238 unused Assets / (7.0 MB). Loaded Objects now: 6872.
-Memory consumption went from 191.6 MB to 184.6 MB.
-Total: 13.427100 ms (FindLiveObjects: 0.591100 ms CreateObjectMapping: 0.383000 ms MarkObjects: 9.203300 ms  DeleteObjects: 3.247600 ms)
+Unloading 6238 unused Assets / (6.8 MB). Loaded Objects now: 6872.
+Memory consumption went from 199.2 MB to 192.4 MB.
+Total: 6.300400 ms (FindLiveObjects: 0.409100 ms CreateObjectMapping: 0.275100 ms MarkObjects: 3.696600 ms  DeleteObjects: 1.918800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 327.129396 seconds.
-  path: Assets/_Recovery
-  artifactKey: Guid(43da677d6b0f34644ba572d0540dab66) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/_Recovery using Guid(43da677d6b0f34644ba572d0540dab66) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '45489244fe334f8a5cd9091aadde4cc8') in 0.0908567 seconds
+  Time since last request: 2516.969297 seconds.
+  path: Assets/3DGS_Data/LivingRoom_col.bytes
+  artifactKey: Guid(8ccfae2febe99a5488b700c9a66f718f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/3DGS_Data/LivingRoom_col.bytes using Guid(8ccfae2febe99a5488b700c9a66f718f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fe18f1910b87ca516a19d9e5641180cd') in 0.0995286 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 608.044793 seconds.
-  path: Assets/3DGS_Data/room_shs.bytes
-  artifactKey: Guid(e20c54a5c32192b4ebba7d3f8b7fdfe6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3DGS_Data/room_shs.bytes using Guid(e20c54a5c32192b4ebba7d3f8b7fdfe6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7a752ad6babf78d659a62477eacd8c0a') in 10.3395857 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000421 seconds.
-  path: Assets/3DGS_Data/room.asset
-  artifactKey: Guid(62ba1850210349249a87d68ab50979a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/3DGS_Data/room.asset using Guid(62ba1850210349249a87d68ab50979a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b5804ab70ef0fd9451b111bc19a069d2') in 4.8049554 seconds
+  Time since last request: 0.000036 seconds.
+  path: Assets/3DGS_Data/LivingRoom.asset
+  artifactKey: Guid(a460df564a4ff974e95d3adcf467f741) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/3DGS_Data/LivingRoom.asset using Guid(a460df564a4ff974e95d3adcf467f741) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3eac6c8d22be119e0afe6447f00a03f4') in 0.1155779 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
 
